@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var {mongoose} = require('./db/mongoose');
 var {Posts} = require('./models/posts');
 var app = express();
+const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 
@@ -57,6 +58,6 @@ app.get('/posts/:tag', (req, res) => {
 //   })
 // })
 
-app.listen('8082')
-console.log('Magic happens on port 8082');
+app.listen(port)
+console.log(`Magic happens on port ${port}`);
 exports = module.exports = app;
