@@ -27,36 +27,36 @@ app.get('/posts/:tag', (req, res) => {
   })
 });
 
-// app.get('/scrape', function(req, res) {
-//   // Let's scrape Anchorman 2
-//   url = 'https://www.smashingmagazine.com/category/coding/';
-//
-//   request(url, function(error, response, html) {
-//
-//     if(!error){
-//       var $ = cheerio.load(html);
-//       var parsedResults = [];
-//       $('article').each(function(i, element) {
-//         var link = $(this).children().first().children().attr('href');
-//         var title = $(this).children().first().children().children().text();
-//         var description = $(this).children('p').text();
-//         var scrape_data = {
-//           title: title,
-//           link: link,
-//           description: description
-//         }
-//         parsedResults.push(scrape_data);
-//       });
-//       console.log(parsedResults);
-//     }
-//
-//     fs.writeFile('output.json', JSON.stringify(parsedResults, null, 4), function(err) {
-//       console.log('File successfully written! - Check your project directory for the output.json file');
-//     })
-//
-//     res.send('Check your console!')
-//   })
-// })
+app.get('/scrape', function(req, res) {
+  url = 'https://www.smashingmagazine.com/category/coding/';
+  request(url, function(error, response, html) {
+    if(!error){
+      var $ = cheerio.load(html);
+      var parsedResults = [];
+      $('article').each(function(i, element) {
+        var post_link = $(this).children().first().children().attr('href');
+        var title = $(this).children().first().children().children().text();
+        publishdate = $(this).find('.rd').text();
+        var description = $(this).children('p').text();
+        var scrape_data = {
+          title: title,
+          category: 'js',
+          url: post_link,
+          publishdate: publishdate,
+          description: description
+        }
+        parsedResults.push(scrape_data);
+      });
+      console.log(parsedResults);
+    }
+
+    fs.writeFile('output.json', JSON.stringify(parsedResults, null, 4), function(err) {
+      console.log('File successfully written! - Check your project directory for the output.json file');
+    })
+
+    res.send('Check your console!')
+  })
+})
 
 app.listen(port)
 console.log(`Magic happens on port ${port}`);

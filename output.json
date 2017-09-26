@@ -1,5 +1,86 @@
-{
-    "title": "",
-    "release": "",
-    "rating": ""
-}
+[
+    {
+        "title": "Exploring Animation And Interaction Techniques With WebGL (A Case Study)",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/09/animation-interaction-techniques-webgl/",
+        "publishdate": "September 25th, 2017",
+        "description": "Two years ago, I decided to start a series of short WebGL experiments on Codepen. Earlier this year, I finally found the time to compile them all together on a single website named \"Moments of Happiness\". Since its incarnation, I’ve found ways to explore and learn different animation and interaction techniques, which I’ve implemented in these interactive toys.As you'll see, the gameplay is very different in each one, but all of the experiments share one principle: The behavior of each character responds programmatically to user input. No precalculated animation — every movement is defined at runtime. Breathing life into these characters with only a few lines of code was the main challenge."
+    },
+    {
+        "title": "User Authentication For Web And iOS Apps With AWS Cognito (Part 2)",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/09/user-authentication-web-ios-apps-aws-cognito-part-2/",
+        "publishdate": "September 21st, 2017",
+        "description": "In today's digital landscape, developers constantly need to be adding new tools to remain competitive and at the top of their craft.If you regularly create new web or mobile applications, then Amazon Cognito is a powerful tool that can cut 90% of the time it usually takes to set up a custom user-management solution. If that is intriguing to you, then let's continue the journey to learn more about what Amazon Cognito has to offer."
+    },
+    {
+        "title": "Building Inclusive Toggle Buttons",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/09/building-inclusive-toggle-buttons/",
+        "publishdate": "September 19th, 2017",
+        "description": "Some things are either on or off and, when those things aren’t on (or off), they are invariably off (or on). The concept is so rudimentary that I’ve only complicated it by trying to explain it, yet on/off switches (or toggle buttons) are not all alike. Although their purpose is simple, their applications and forms vary greatly.In this inaugural post, I’ll be exploring what it takes to  make toggle buttons inclusive. As with any component, there’s no one way to go about this, especially when such controls are examined under different contexts. However, there’s certainly plenty to forget to do or to otherwise screw up, so let’s try to avoid any of that."
+    },
+    {
+        "title": "Meet XRespond Testing Tool: Let’s Make Building Responsive Websites Simpler",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/09/xrespond-building-responsive-websites-simpler/",
+        "publishdate": "September 7th, 2017",
+        "description": "The way people consume information is constantly evolving. As web designers and developers, we keep up with all of the different screen shapes and sizes, learning to create beautiful, flexible software. Yet most of the available tools still don’t reflect the nature and diversity of the platform we’re building for: the browser.When I was making my first responsive website in 2012, I quickly realized how inefficient and time-consuming the constant browser window resizing was. I had just moved from Estonia to Australia, and with a newborn, time was very much a precious resource."
+    },
+    {
+        "title": "The CSS Grid Challenge: Build A Template, Win Some Smashing Prizes!",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/",
+        "publishdate": "September 6th, 2017",
+        "description": "Layout on the web has always been tricky, but with CSS Grid being now supported in all major browsers, most of the hacks that helped to achieve complex layouts have become obsolete. Firefox even has a CSS Grid Inspector built in, so that there’s nothing to hold you back from making even the most challenging flexible layout reality.To explore the possibilities and features of CSS Grid together, we’d love to invite you to a little contest. Because there’s nothing better to completely grasp a new technology as getting your hands dirty and playing with it, right?"
+    },
+    {
+        "title": "A Guide To Virtual Reality For Web Developers",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/09/guide-virtual-reality-web-developers/",
+        "publishdate": "September 4th, 2017",
+        "description": "Recently, there has been a proliferation of virtual reality (VR) web browsers and VR capabilities added to traditional browsers. In this article, we’ll look at the state of browsers in VR and the state of VR on the web via the WebVR APIs.The web community has experimented with VR before, with VRML, but now WebVR takes a new approach to VR, one more suited to the modern web. We've accelerated 3D on the web since 2011 with the release of WebGL. Now the web can handle VR thanks to new web APIs that take advantage of VR hardware using WebGL."
+    },
+    {
+        "title": "How To Create A Sketch Plugin With Front-End Technologies",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/08/create-sketch-plugin-front-end-technologies/",
+        "publishdate": "August 21st, 2017",
+        "description": "UX design hasn't been the same since Sketch arrived on the scene. The app has delivered a robust design platform with a refreshing, simple user interface. A good product on its own, it achieved critical success by being extended with community plugins.The open nature of the Sketch plugin system means that anyone can identify a need, write a plugin and share it with the community. A major barrier is stopping those eager to take part: Designers and front-end developers must learn how to write a plugin. Unfortunately, Objective-C is difficult to learn!"
+    },
+    {
+        "title": "User Authentication For Web And iOS Apps With AWS Cognito (Part 1)",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/08/user-authentication-web-ios-apps-aws-cognito-part-1/",
+        "publishdate": "August 17th, 2017",
+        "description": "Developers and organizations alike are looking for a way to have more agility with mobile solutions. There is a desire to decrease the time from idea to test. As a developer, I often run up against one hurdle that can slow down the initial build of a mobile hypothesis: user management.Over the years, I have built at least three user management systems from scratch. Much of the approach can be based on a boilerplate, but there are always a few key items that need to be customized for a particular client. This is enough of a concern that an entire category of user management, authentication and authorization services have sprung up to meet this need. Services like Auth0 have entire solutions based on user and identity management that developers can integrate with."
+    },
+    {
+        "title": "Designing The Perfect Feature Comparison Table",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/08/designing-perfect-feature-comparison-table/",
+        "publishdate": "August 15th, 2017",
+        "description": "Not all products are created equal. While we repeatedly buy some products almost mindlessly, for others, we take a lot of time to make a purchasing decision. For a price tag that meets a certain threshold or if we are particularly invested in the quality of a product, we want to be absolutely certain that we are making the right choice and are getting a good product for a good price. That's where a feature comparison table makes all the difference.Feature comparison tables are helpful not only in their primary function, though. When designed properly, they can aid in decision-making way beyond placing product specifications side by side. They can also add meaning to an otherwise too technical product specification sheet, explaining why a certain feature is relevant to the customer or how a certain product is better than the others."
+    },
+    {
+        "title": "The Nine Principles Of Design Implementation",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/08/nine-principles-design-implementation/",
+        "publishdate": "August 14th, 2017",
+        "description": "Recently, I was leading a training session for one of our clients on best practices for implementing designs using HTML and CSS. Part of our time included a discussion of processes such as style-guide-driven development, approaches such as OOCSS and SMACSS, and modular design. Near the end of the last day, someone asked, “But how will we know if we’ve done it right?”At first, I was confused. I had just spent hours telling them everything they need to “do it right.” But after thinking about it, I realized the question was rooted in a deeper need to guide and evaluate what is often a set of subjective choices — choices that are sometimes made by a lot of different people at different times."
+    },
+    {
+        "title": "Tracking Internal Marketing Campaigns With Google Analytics",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/08/tracking-internal-marketing-campaigns-google-analytics/",
+        "publishdate": "August 10th, 2017",
+        "description": "Editor's Note: This article is targeted at readers experienced in using Google Analytics. If you're new to Analytics, the following guide might be challenging.Many websites use internal advertising in the form of banners or personalized product recommendations to bring additional products and services to the attention of visitors and to increase conversions and leads.Naturally, the performance and effectiveness of internal marketing campaigns should be assessed, too, as this is one of the most powerful instruments for generating more leads, more conversions and more revenue on your website. In many cases, web analysts use Google Analytics' UTM campaign parameters to track internal advertising."
+    },
+    {
+        "title": "Building A Simple AI Chatbot With Web Speech API And Node.js",
+        "category": "js",
+        "url": "https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/",
+        "publishdate": "August 7th, 2017",
+        "description": "Using voice commands has become pretty ubiquitous nowadays, as more mobile phone users use voice assistants such as Siri and Cortana, and as devices such as Amazon Echo and Google Home have been invading our living rooms.These systems are built with speech recognition software that allows their users to issue voice commands. Now, our web browsers will become familiar with to Web Speech API, which allows users to integrate voice data in web apps."
+    }
+]
