@@ -7,6 +7,12 @@ var Posts = mongoose.model('Posts', {
     minlength: 1,
     trim: true
   },
+  url: {
+    type: String,
+    required: true,
+    minlength: 1,
+    trim: true
+  },
   description: {
     type: String,
     required: true,
@@ -20,9 +26,40 @@ var Posts = mongoose.model('Posts', {
     trim: true
   },
   publishedDate: {
-    type: Number,
+    type: Date,
     default: null
   }
 });
 
-module.exports = {Posts};
+var ScrapePosts = mongoose.model('ScrapePosts', {
+  title: {
+    type: String,
+    required: true,
+    minlength: 1,
+    trim: true
+  },
+  url: {
+    type: String,
+    required: true,
+    minlength: 1,
+    trim: true
+  },
+  description: {
+    type: String,
+    required: true,
+    minlength: 1,
+    trim: true
+  },
+  tag: {
+    type: String,
+    required: true,
+    minlength: 1,
+    trim: true
+  },
+  publishedDate: {
+    type: Date,
+    default: null
+  }
+});
+
+module.exports = {Posts, ScrapePosts};
